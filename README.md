@@ -15,7 +15,7 @@ This was a deliberate design choice. An open-ended LLM chatbot can say unpredict
 ## Safety design
 
 - **`crisis_detection.py`** runs on every message, before anything else. If it matches, the app shows crisis hotline info and stops normal conversation — it does not try to keep chatting.
-- Crisis resources (988, Crisis Text Line, findahelpline.com) are **always visible** in the sidebar, not just shown reactively.
+- Crisis resources (emergency number **112**) are **always visible** in the sidebar, not just shown reactively.
 - A disclaimer banner is shown on every page load, not buried in a settings page.
 - All coping techniques (grounding, box breathing, thought reframing) are standard, widely-published self-help psychoeducation — nothing clinical or prescriptive.
 
